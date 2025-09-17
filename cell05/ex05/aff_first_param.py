@@ -1,5 +1,6 @@
-array = input().split()
-if len(array) == 0:
+import sys
+
+if len(sys.argv) > 1:
+    print(sys.argv[1])
+else:
     print("none")
-else :
-    print(array[0])
