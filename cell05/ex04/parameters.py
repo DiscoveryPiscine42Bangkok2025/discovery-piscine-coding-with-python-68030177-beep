@@ -1,2 +1,2 @@
-parameters = input().split()
-print(f"Number of parameters: {len(parameters)}.")
+import sys
+print(f"Number of parameters: {len(sys.argv)-1}")
